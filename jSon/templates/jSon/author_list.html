@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <section>
+        <div class="pagination container w-2/3 rounded-3xl border shadow bg-gray-400 mt-5">
+            <div class="text-center font-bold">
+                <h2>Authors {{ authors.count }}{{ authors|pluralize }}.</h2>
+            </div>
+            <ol>
+              {% for author in page_obj %}
+                <li>
+                    <a class="text-blue-900 hover:text-blue-600 border-b border-green-200" href="{% url 'jSon:author-detail' author.pk %}">
+                        {{ author.name }}
+                    </a>
+                </li>
+              {% endfor %}
+            </ol>
+            <div class="step-links text-center">
+                {% if page_obj.has_previous %}
+                    <a class="text-blue-900 hover:text-blue-600 border-b border-green-200" href="?page={{ page_obj.previous_page_number }}">
+                        previous
+                    </a>
+                {% endif %}
+    
+                <span class="current">
+                    Page {{ page_obj.number }} of {{ paginator.num_pages }}.
+                </span>
+    
+                {% if page_obj.has_next %}
+                    <a class="text-blue-900 hover:text-blue-600 border-b border-green-200" href="?page={{ page_obj.next_page_number }}">
+                        next
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+{% endblock content %}

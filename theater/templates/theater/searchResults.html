@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+<body>
+    {% for person in search_results %}
+<pre>
+    <p>person: {{ person.name }}</p>
+        <span>can donate on: {{ person.can_donate_on.date }}</span>
+        <span>Last donation: {{ person.last_donated}}</span>
+</pre>
+<hr/>
+{{query}}
+{% endfor %}
+</body>
+</html>
+

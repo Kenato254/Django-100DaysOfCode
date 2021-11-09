@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copies</title>
+</head>
+<body>
+    <div>
+        <ul>
+            {% for dog in dogs %}
+            <li><a href="{% url 'theater:dog-view' dog.id %}">{{ dog }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <section>
+        <div class="container">
+            <h1>Update </h1>
+            <a href="{% url 'codeApp:view-book' book.pk %}">Go back to {{ book.name }}</a>
+            <hr/>
+            <form action="." method="post">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button type="submit">Update</button>
+            </form>
+        </div>
+    </section>
+{% endblock content %}

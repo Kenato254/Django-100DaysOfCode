@@ -1,0 +1,7 @@
+{% for person in can %}
+<pre>
+    <p>person: {{ person.name }}</p>
+        <span>can donate on: {{ person.can_donate_on.date }}</span>
+        <span>Last donation: {{ person.last_donated}}</span>
+</pre>
+{% endfor %}

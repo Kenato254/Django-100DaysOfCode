@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <section class="w-full text-center">
+        <div>
+            <h1>Author {{ author.name }}</h1>
+            <a href="{% url 'jSon:authors-list' %}">Go back to authors</a>
+            <ul>
+                {% for book in author.book.all %}
+                    <li>{{ book.name }}</li>
+                {% empty %}
+                    <p>No books available for {{ author.name }}</p>
+                {% endfor %}
+            </ul>
+            <hr/>
+            <div>
+                <form action="." method="post">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button class="bg-green-200 p-3 rounded-xl hover:bg-green-400" type="submit">Message me</button>
+                </form>
+                <div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

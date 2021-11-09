@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section>
+        <div class="container w-2/3 rounded-3xl border shadow bg-gray-400 ">
+            <h1>Books</h1>
+            <a class="rounded-m bg-gray-300 px-3 mx-2" href="{% url 'codeApp:add-book' %}">Add a new book</a>
+            <a class="rounded-m bg-gray-300 px-3 mx-2" href="{% url 'codeApp:contact-form' %}">Contact us</a>
+            <hr/>
+            <ul>
+                {% for book in book_list %}
+                <li>
+                    <a href="{% url 'codeApp:view-book' book.pk %}">{{ book.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+{% endblock content %}

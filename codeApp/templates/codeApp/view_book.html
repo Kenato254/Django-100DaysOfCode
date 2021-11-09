@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section>
+        <div class="container">
+            <h3>Total books: {{ total_books }}</h3>
+            <a href="{% url 'codeApp:view-books' %}">Go back to books</a>
+            <div>
+                <p>Book Name: {{ book.name }}</p>
+                <p>Was published on: {{ book.pub_date }}</p>
+            </div>
+            <div>
+                <a href="{% url 'codeApp:update-book' book.pk %}">Update</a>
+                <a href="{% url 'codeApp:delete-book' book.pk %}">Delete</a>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

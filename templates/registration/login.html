@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<section>
+    <div class="container w-2/3 rounded-3xl border shadow bg-gray-400 ">
+        <h3>Login</h3>
+        <form action='.' method='post'>
+            {% csrf_token %}
+                <div>
+                    {{ form|crispy }}
+                </div>
+            <button class="border px-3 py-2 rounded-xl w-1/2 flex-center hover:bg-green-200" type="submit">Login</button>
+        </form>
+    </div>
+</section>
+{% endblock %}
