@@ -16,3 +16,4 @@
 |[Day 17](#day-17) **4th Nov 2021**|Topics: Nesting Query Expressions and annotating with Sum, Max, Min, Avg and so on.|[Day 18](#day-18) **5th Nov 2021**|Topic: Query Expressions continuation with Q.
 |[Day 19](#day-19) **6th Nov 2021**|Topics: More on Query Expressions.|[Day 20](#day-20) **7th Nov 2021**|Topic: More practice on Query Expressions.
 |[Day 21](#day-21) **8th Nov 2021**|Topic Covered: Querying JSONField; Storing and querying for None, & Key, index, and path transforms.|[Day 22](#day-22) **9th Nov 2021**|Topics:Copying model instances, Updating multiple objects at once and Related objects.
+|[Day 23](#day-23) **10th Nov 2021**|Topics QuerySet API reference.

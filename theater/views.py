@@ -44,7 +44,7 @@ def full_name_view(request):
             # Coelesce gets non-null values in a list
             Coalesce(
                 # Return a null value is argument1 equals arguement2 otherwise return arguement1
-                NullIf("marital_status", Value(" ")), "gender"
+                NullIf("marital_status", Value(" ")), "pet"
         ), output_field=CharField())
     ).values_list("status")
     print(marital)
