@@ -17,4 +17,4 @@
 |[Day 19](#day-19) **6th Nov 2021**|Topics: More on Query Expressions.|[Day 20](#day-20) **7th Nov 2021**|Topic: More practice on Query Expressions.
 |[Day 21](#day-21) **8th Nov 2021**|Topic Covered: Querying JSONField; Storing and querying for None, & Key, index, and path transforms.|[Day 22](#day-22) **9th Nov 2021**|Topics:Copying model instances, Updating multiple objects at once and Related objects.
 |[Day 23](#day-23) **10th Nov 2021**|Topics QuerySet API reference. |[Day 24](#day-24) **11th Nov 2021**|Topics: Writing Tests.
-|[Day 25](#day-25) **16th Nov 2021**|Covered: Recap on Writing and Running Tests.
+|[Day 25](#day-25) **16th Nov 2021**|Covered: Recap on Writing and Running Tests.|[Day 26](#day-26) **17th Nov 2021**|Topic: Recap on Python re module and more practice on Writing and running tests Django.
