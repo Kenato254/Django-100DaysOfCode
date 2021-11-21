@@ -19,4 +19,4 @@
 |[Day 23](#day-23) **10th Nov 2021**|Topics QuerySet API reference. |[Day 24](#day-24) **11th Nov 2021**|Topics: Writing Tests.
 |[Day 25](#day-25) **16th Nov 2021**|Covered: Recap on Writing and Running Tests.|[Day 26](#day-26) **17th Nov 2021**|Topic: Recap on Python re module and more practice on Writing and running tests Django.
 |[Day 27](#day-27) **18th Nov 2021**|Topics: Python Unittest Module.|[Day 28](#day-28) **19th Nov 2021**|Topics: Unit Testing Framework-Python Mock and Polymorphism in python.
-|[Day 29](#day-29) **20th Nov 2021**|Covered: Started working on Online Movie Ticket Booking System(Python/Django).
+|[Day 29](#day-29) **20th Nov 2021**|Covered: Started working on Online Movie Ticket Booking System(Python/Django).|[Day 30](#day-30) **21th Nov 2021**|Covered: Worked on my project's(Online Movie Ticket Booking System) model layer.
