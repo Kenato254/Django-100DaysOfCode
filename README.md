@@ -21,4 +21,4 @@
 |[Day 27](#day-27) **18th Nov 2021**|Topics: Python Unittest Module.|[Day 28](#day-28) **19th Nov 2021**|Topics: Unit Testing Framework-Python Mock and Polymorphism in python.
 |[Day 29](#day-29) **20th Nov 2021**|Covered: Started working on Online Movie Ticket Booking System(Python/Django).|[Day 30](#day-30) **21th Nov 2021**|Covered: Worked on my project's(Online Movie Ticket Booking System) model layer.
 |[Day 31](#day-31) **22th Nov 2021**|Worked On (Online Movie Ticket Booking System) Model layer and a little bit on Template and View layer.|[Day 32](#day-32) **23th Nov 2021**|Topics: Worked on the Templates and Views.
-|[Day 33](#day-33) **24th Nov 2021**|Topics: Started writing tests for my project(TDD).
+|[Day 33](#day-33) **24th Nov 2021**|Topics: Started writing tests for my project(TDD).|[Day 34](#day-34) **25th Nov 2021**|Topics: Worked on Templates Layer.
