@@ -22,3 +22,4 @@
 |[Day 29](#day-29) **20th Nov 2021**|Covered: Started working on Online Movie Ticket Booking System(Python/Django).|[Day 30](#day-30) **21th Nov 2021**|Covered: Worked on my project's(Online Movie Ticket Booking System) model layer.
 |[Day 31](#day-31) **22th Nov 2021**|Worked On (Online Movie Ticket Booking System) Model layer and a little bit on Template and View layer.|[Day 32](#day-32) **23th Nov 2021**|Topics: Worked on the Templates and Views.
 |[Day 33](#day-33) **24th Nov 2021**|Topics: Started writing tests for my project(TDD).|[Day 34](#day-34) **25th Nov 2021**|Topics: Worked on Templates Layer.
+|[Day 35](#day-35) **26th Nov 2021**|Covered: HTML, CSS, and Django: worked on my project's views and templates.|[Day 36](#day-36) **27th Nov 2021**|Topics: Worked on Django JsonResponse(view) by implementing Ajax in JQuery.
