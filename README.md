@@ -24,4 +24,4 @@
 |[Day 33](#day-33) **24th Nov 2021**|Topics: Started writing tests for my project(TDD).|[Day 34](#day-34) **25th Nov 2021**|Topics: Worked on Templates Layer.
 |[Day 35](#day-35) **26th Nov 2021**|Covered: HTML, CSS, and Django: worked on my project's views and templates.|[Day 36](#day-36) **27th Nov 2021**|Topics: Worked on Django JsonResponse(view) by implementing Ajax in JQuery.
 |[Day 37](#day-37) **28th Nov 2021**|Topic: Worked on my project's list view touching up some js, css, html and django functionalities.|[Day 38](#day-38) **29th Nov 2021**|Topics: Forms overview, Form API, and Built-in fields.
-|[Day 39](#day-39) **30th Nov 2021**|Topics: Django: CSRF Defense and a little bit on Cookies and Sessions.
+|[Day 39](#day-39) **30th Nov 2021**|Topics: Django: CSRF Defense and a little bit on Cookies and Sessions.|[Day 40](#day-40) **01th Dec 2021**|Topics: Started Django’s cache framework.
