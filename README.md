@@ -19,7 +19,9 @@
 |[Day 23](#day-23) **10th Nov 2021**|Topics QuerySet API reference. |[Day 24](#day-24) **11th Nov 2021**|Topics: Writing Tests.
 |[Day 25](#day-25) **16th Nov 2021**|Covered: Recap on Writing and Running Tests.|[Day 26](#day-26) **17th Nov 2021**|Topic: Recap on Python re module and more practice on Writing and running tests Django.
 |[Day 27](#day-27) **18th Nov 2021**|Topics: Python Unittest Module.|[Day 28](#day-28) **19th Nov 2021**|Topics: Unit Testing Framework-Python Mock and Polymorphism in python.
-|[Day 29](#day-29) **20th Nov 2021**|Covered: Started working on Online Movie Ticket Booking System(Python/Django).|[Day 30](#day-30) **21th Nov 2021**|Covered: Worked on my project's(Online Movie Ticket Booking System) model layer.
-|[Day 31](#day-31) **22th Nov 2021**|Worked On (Online Movie Ticket Booking System) Model layer and a little bit on Template and View layer.|[Day 32](#day-32) **23th Nov 2021**|Topics: Worked on the Templates and Views.
+|[Day 29](#day-29) **20th Nov 2021**|Covered: Started working on Online Movie Ticket Booking System(Python/Django).|[Day 30](#day-30) **21st Nov 2021**|Covered: Worked on my project's(Online Movie Ticket Booking System) model layer.
+|[Day 31](#day-31) **22nd Nov 2021**|Worked On (Online Movie Ticket Booking System) Model layer and a little bit on Template and View layer.|[Day 32](#day-32) **23rd Nov 2021**|Topics: Worked on the Templates and Views.
 |[Day 33](#day-33) **24th Nov 2021**|Topics: Started writing tests for my project(TDD).|[Day 34](#day-34) **25th Nov 2021**|Topics: Worked on Templates Layer.
 |[Day 35](#day-35) **26th Nov 2021**|Covered: HTML, CSS, and Django: worked on my project's views and templates.|[Day 36](#day-36) **27th Nov 2021**|Topics: Worked on Django JsonResponse(view) by implementing Ajax in JQuery.
+|[Day 37](#day-37) **28th Nov 2021**|Topic: Worked on my project's list view touching up some js, css, html and django functionalities.|[Day 38](#day-38) **29th Nov 2021**|Topics: Forms overview, Form API, and Built-in fields.
+|[Day 39](#day-39) **30th Nov 2021**|Topics: Django: CSRF Defense and a little bit on Cookies and Sessions.
