@@ -156,3 +156,10 @@ LOGOUT_REDIRECT_URL = '/'
 CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
 
 CRISPY_TEMPLATE_PACK = "tailwind"
+
+CACHES = {
+    'default': {
+        'backend': 'django.core.cached.backed.memcached.PyMemcacheCache',
+        'LOCATION': '127.0.0.1:11211',
+    } 
+}
