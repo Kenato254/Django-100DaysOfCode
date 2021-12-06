@@ -159,7 +159,7 @@ CRISPY_TEMPLATE_PACK = "tailwind"
 
 CACHES = {
     'default': {
-        'backend': 'django.core.cached.backed.memcached.PyMemcacheCache',
+        'BACKEND': 'django.core.cache.backends.memcached.PyMemcacheCache',
         'LOCATION': '127.0.0.1:11211',
     } 
 }

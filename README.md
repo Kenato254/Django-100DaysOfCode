@@ -26,3 +26,4 @@
 |[Day 37](#day-37) **28th Nov 2021**|Topic: Worked on my project's list view touching up some js, css, html and django functionalities.|[Day 38](#day-38) **29th Nov 2021**|Topics: Forms overview, Form API, and Built-in fields.
 |[Day 39](#day-39) **30th Nov 2021**|Topics: Django: CSRF Defense and a little bit on Cookies and Sessions.|[Day 40](#day-40) **01st Dec 2021**|Topics: Started Django’s cache framework.
 |[Day 41](#day-41) **02nd Dec 2021**|Topics: Still on Django’s cache framework.  |[Day 42](#day-42) **03rd Dec 2021**|Topics: Still on Django cache framework. Extras: One challenge a day at Sololearn Coding challenges(Python)
+|[Day 43](#day-43) **04th Dec 2021**|Topics: Django cache framework continuation. |[Day 44](#day-44) **05th Dec 2021**|Topics:The low-level cache API.
