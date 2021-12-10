@@ -27,5 +27,5 @@
 |[Day 39](#day-39) **30th Nov 2021**|Topics: Django: CSRF Defense and a little bit on Cookies and Sessions.|[Day 40](#day-40) **01st Dec 2021**|Topics: Started Django’s cache framework.
 |[Day 41](#day-41) **02nd Dec 2021**|Topics: Still on Django’s cache framework.  |[Day 42](#day-42) **03rd Dec 2021**|Topics: Still on Django cache framework. Extras: One challenge a day at Sololearn Coding challenges(Python)
 |[Day 43](#day-43) **04th Dec 2021**|Topics: Django cache framework continuation. |[Day 44](#day-44) **05th Dec 2021**|Topics:The low-level cache API.
- |[Day 45](#day-45) **06th Dec 2021**|Topics: Cache key prefixing, Cache versioning & Cache key transformation.|[Day 46](#day-46) **07th Dec 2021**|Topics: Low-Level Cache API(Polishing).
- |[Day 47](#day-47) **08th Dec 2021**|Topics: Django: Low-Level Cache API- Invalidating cache objects.
+|[Day 45](#day-45) **06th Dec 2021**|Topics: Cache key prefixing, Cache versioning & Cache key transformation.|[Day 46](#day-46) **07th Dec 2021**|Topics: Low-Level Cache API(Polishing).
+|[Day 47](#day-47) **08th Dec 2021**|Topics: Django: Low-Level Cache API- Invalidating cache objects.|[Day 48](#day-48) **09th Dec 2021**|Topics: Signals.
