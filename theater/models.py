@@ -126,7 +126,7 @@ class PersonModel(models.Model):
     last_donated = models.DateTimeField(default=datetime.datetime.today()-datetime.timedelta(5))
     country = models.ForeignKey(CountryModel, on_delete=models.CASCADE)
     personal = models.UUIDField("Personal Identification Number", default=uuid.uuid4)
-    marital_status = models.JSONField(default=dict(MaritalStatus= "Single"))
+    marital_status = models.JSONField('{"MaritalStatus": "Single"}')
     pet = models.JSONField(null=True)
 
     objects = PersonQuerySet.as_manager()

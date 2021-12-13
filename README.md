@@ -29,4 +29,5 @@
 |[Day 43](#day-43) **04th Dec 2021**|Topics: Django cache framework continuation. |[Day 44](#day-44) **05th Dec 2021**|Topics:The low-level cache API.
 |[Day 45](#day-45) **06th Dec 2021**|Topics: Cache key prefixing, Cache versioning & Cache key transformation.|[Day 46](#day-46) **07th Dec 2021**|Topics: Low-Level Cache API(Polishing).
 |[Day 47](#day-47) **08th Dec 2021**|Topics: Django: Low-Level Cache API- Invalidating cache objects.|[Day 48](#day-48) **09th Dec 2021**|Topics: Signals.
-|[Day 49](#day-49) **10th Dec 2021**|Topics:Using signals to invalidate cache.|[Day 50](#day-50) **11th Dec 2021**|
+|[Day 49](#day-49) **10th Dec 2021**|Topics:Using signals to invalidate cache.|[Day 50](#day-50) **11th Dec 2021**|Topics: Concluded on Django signals at least for now.
+|[Day 51](#day-51) **12th Dec 2021**|Topics: Sessions.

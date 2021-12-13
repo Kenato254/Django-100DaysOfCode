@@ -18,7 +18,6 @@ from codeApp.mixins import JsonTemplateView
 from .models import Author, BookModel, User
 from codeApp.forms import BookModelForm, ContactForm
 
-
  # NOT SO DRY
 class LandingPageView(generic.TemplateView):
     template_name = 'landing_page.html'
@@ -36,7 +35,7 @@ class BookListView(LoginRequiredMixin, TemplateResponseMixin, View):
         queryset = {
             "book_list" : BookModel.objects.filter(user=user),
         }
-        return queryset    
+        return queryset  
 
     # Method not working as intended.
     # def head(self, *args, **kwargs):

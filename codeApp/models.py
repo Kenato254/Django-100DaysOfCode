@@ -43,7 +43,7 @@ class BookModel(models.Model):
 
     def __str__(self):
         return self.name
-    
+  
 
 def post_save_created_signal(sender, instance, created, **kwargs):
     if created:
