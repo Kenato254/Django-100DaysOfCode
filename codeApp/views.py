@@ -48,12 +48,22 @@ class BookListView(LoginRequiredMixin, TemplateResponseMixin, View):
 
 # EVERY instance of this view is decorated 
 @method_decorator(login_required, name='dispatch')
-class BookAddView(LoginRequiredMixin, ModelFormMixin, View):
+class BookAddView(ModelFormMixin, View):
     form_class = BookModelForm
     template_name = "codeApp/add_book.html"
 
     def get(self, request):
         form = self.form_class()
+        if request.session.test_cookie_worked():
+            request.session.delete_test_cookie()
+            #! Sets cookie
+            signed_object = signer.sign_object({'Test': 'Cookie'})
+            request.set_cookie('object', signed_object, max_age=300)
+            
+            #! Sets Session
+            num_of_visits = request.session.get('num_of_visits', 0) + 1
+            request.session['num_of_visits'] = num_of_visits
+            if num_of_visits > 4: del(request.session['num_of_visits'])
         return render(request, self.template_name, {'form':form})
     
     def post(self, request, *args, **kwargs):

@@ -31,3 +31,4 @@
 |[Day 47](#day-47) **08th Dec 2021**|Topics: Django: Low-Level Cache API- Invalidating cache objects.|[Day 48](#day-48) **09th Dec 2021**|Topics: Signals.
 |[Day 49](#day-49) **10th Dec 2021**|Topics:Using signals to invalidate cache.|[Day 50](#day-50) **11th Dec 2021**|Topics: Concluded on Django signals at least for now.
 |[Day 51](#day-51) **12th Dec 2021**|Topics: Sessions.|[Day 52](#day-52) **13th Dec 2021**|Topics: Using sessions in views.
+|[Day 53](#day-53) **14th Dec 2021**|Topics: Sessions.|[Day 54](#day-54) **15th Dec 2021**|Topics: Sessions(Session security).
