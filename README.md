@@ -32,3 +32,5 @@
 |[Day 49](#day-49) **10th Dec 2021**|Topics:Using signals to invalidate cache.|[Day 50](#day-50) **11th Dec 2021**|Topics: Concluded on Django signals at least for now.
 |[Day 51](#day-51) **12th Dec 2021**|Topics: Sessions.|[Day 52](#day-52) **13th Dec 2021**|Topics: Using sessions in views.
 |[Day 53](#day-53) **14th Dec 2021**|Topics: Sessions.|[Day 54](#day-54) **15th Dec 2021**|Topics: Sessions(Session security).
+|[Day 55](#day-55) **16th Dec 2021**|Topics: Django: Sessions(Using sessions out of views). |[Day 56](#day-56) **18th Dec 2021**|Topics: Still handling Django Sessions.
+|[Day 57](#day-57) **19th Dec 2021**|Topics: Concluded Sessions (for now). |[Day 58](#day-58) **20th Dec 2021**|Topics: Started Security in Django-Cross site scripting (XSS) protection.
