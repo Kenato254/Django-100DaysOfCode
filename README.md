@@ -34,3 +34,5 @@
 |[Day 53](#day-53) **14th Dec 2021**|Topics: Sessions.|[Day 54](#day-54) **15th Dec 2021**|Topics: Sessions(Session security).
 |[Day 55](#day-55) **16th Dec 2021**|Topics: Django: Sessions(Using sessions out of views). |[Day 56](#day-56) **18th Dec 2021**|Topics: Still handling Django Sessions.
 |[Day 57](#day-57) **19th Dec 2021**|Topics: Concluded Sessions (for now). |[Day 58](#day-58) **20th Dec 2021**|Topics: Started Security in Django-Cross site scripting (XSS) protection.
+|[Day 59](#day-59) **21th Dec 2021**|Topics: Data Structures(Linked List and Reverse Linked List).Revised Recursion. |[Day 60](#day-60) **22th Dec 2021**|Topics:  Security in Django. Data Structures(Python)
+|[Day 61](#day-61) **23th Dec 2021**|Topics:  Data Structures(Doubly Linked List). Security in Django
