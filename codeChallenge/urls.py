@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 from codeApp.views import LandingPageView
-from security.views import secret_key_page, pickling_page
+from security.views import secret_key_page, pickling_page, xss_page
 
 urlpatterns = [
     # Apps
@@ -18,6 +18,7 @@ urlpatterns = [
     path('', LandingPageView.as_view(), name='landing-view'),
     path('security/secret_key', secret_key_page),
     path('security/pickling', pickling_page),
+    path('security/xss', xss_page),
     # Auth
     path('login/', LoginView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),

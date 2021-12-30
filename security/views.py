@@ -1,4 +1,7 @@
+from django.template import RequestContext
+from django.shortcuts import render
 from django.http import HttpResponse
+from django.http.response import HttpResponseRedirect
 from django.template.loader import render_to_string
 
 from django.conf import settings
@@ -88,14 +91,32 @@ def cryptographic_signing():
 
     print(signed)
 
-
-
-
-
-
-
-
 #! XSS -> Cross Site Scripting Attack/Protection
+
+def xss_page(request):
+    from .forms import UserInputModelForm
+    from .models import UserInput
+
+    userInputs = UserInput.objects.all()
+    # userInputs = UserInput.objects.get(id=19)
+    # userInputs.delete()
+    if request.method == 'POST':
+        form = UserInputModelForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            age = form.cleaned_data['age']
+            print(name, age)
+            form.save()
+            return HttpResponseRedirect('/#/')
+    context = {
+        'form':UserInputModelForm(),
+        'greetings': userInputs
+    }
+    return render(request, 'security/security_xss.html', context)
+
+
+# from django.views.decorators.csrf import csrf_exempt
+# @csrf_exempt
 
 #! CSRF -> Cross Site Request Forgery Attack/Protection
 
