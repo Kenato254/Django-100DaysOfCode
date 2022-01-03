@@ -55,13 +55,13 @@ def pickling_page(request):
     sess_signed = {"desc":"I'm Ken"}
     attack = 'This is pages simulates a simple pickle attack and prevention'
 
-    data = signing.loads(
-        sess_signed,
-        key=secret_key,
-        salt='django.core.signing',
-        serializer=PickleSerializer,
-        max_age=300,
-    )
+    # data = signing.loads(
+    #     sess_signed,
+    #     key=secret_key,
+    #     salt='django.core.signing',
+    #     serializer=PickleSerializer,
+    #     max_age=300,
+    # )
     context = {
         'session': sess,
         'attack': attack,
@@ -92,7 +92,6 @@ def cryptographic_signing():
     print(signed)
 
 #! XSS -> Cross Site Scripting Attack/Protection
-
 def xss_page(request):
     from .forms import UserInputModelForm
     from .models import UserInput
@@ -113,12 +112,23 @@ def xss_page(request):
         'greetings': userInputs
     }
     return render(request, 'security/security_xss.html', context)
-
-
+                                                                           
 # from django.views.decorators.csrf import csrf_exempt
 # @csrf_exempt
 
 #! CSRF -> Cross Site Request Forgery Attack/Protection
+def csrf_page(request):
+    from .forms import FeedbackModelForm
+    from .models import Feedback
+    context = {}
+    if request.method == 'POST':
+        form = FeedbackModelForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect('/#/')
+    query = Feedback.objects.all()
+    context.update(form=FeedbackModelForm(), feedbacks=query)
+    return render(request, 'security/security_csrf.html', context)
 
 #! SQL Injection Attack/Protection
 

@@ -1,0 +1,9 @@
+<h3>Hello Cross Site Request Forgeries vs Same origin Policy</h3>
+{% for feedback in feedbacks %}
+<h4>{{ feedback }}</h4>
+{% endfor %}
+<form action="#" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
