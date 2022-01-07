@@ -113,25 +113,31 @@ def xss_page(request):
     }
     return render(request, 'security/security_xss.html', context)
                                                                            
-# from django.views.decorators.csrf import csrf_exempt
-# @csrf_exempt
+from django.views.decorators.csrf import csrf_exempt, csrf_protect, requires_csrf_token, ensure_csrf_cookie
 
-#! CSRF -> Cross Site Request Forgery Attack/Protection
 def csrf_page(request):
+    #! CSRF -> Cross Site Request Forgery Attack/Protection
     from .forms import FeedbackModelForm
     from .models import Feedback
     context = {}
     if request.method == 'POST':
         form = FeedbackModelForm(request.POST)
+        print(request.POST)
         if form.is_valid():
             form.save()
             return HttpResponseRedirect('/#/')
+        else:
+            print(form.errors.as_json)
     query = Feedback.objects.all()
     context.update(form=FeedbackModelForm(), feedbacks=query)
     return render(request, 'security/security_csrf.html', context)
 
 #! SQL Injection Attack/Protection
+#* Use Django ORM Always
 
 #! Clickjacking Attack/Protection
+def clickjacking_page(request):
+    rendered = render_to_string('security/security_clickjacking.html') 
+    return HttpResponse(rendered)
 
 #! Session

@@ -39,4 +39,7 @@
 |[Day 63](#day-63) **26th Dec 2021**|Topics: Security in Django (Serialization(Pickle, YAML, XML) Vulnerabilities). Data Structures(Doubly Linked List). |[Day 64](#day-64) **27th Dec 2021**|Topics: Security in Django (Cryptographic Signing). Data Structures(Concluded Doubly Linked List) at least for now.
 |[Day 65](#day-65) **28th Dec 2021**|Topics: Security in Django (Cross Site Scripting (XSS) Protection).Data Structures practice at GeeksforGeeks.|[Day 66](#day-66) **29th Dec 2021**|Topics: Security in Django (Concluded on Cross-site scripting (XSS) protection). Data Structures Circular Linked List(Python).
 |[Day 67](#day-67) **30th Dec 2021**|Topics: Security in Django (Cross Site Request Forgery Protection). Extra: Data Structures practice. |[Day 68](#day-68) **02nd Jan 2022**|Topic: Data Structures Practice on GeeksforGeeks.
-|[Day 69](#day-69) **03rd Jan 2022**|Topic: Security in Django(CSRF) Data Structures Practice at Leetcode.
+|[Day 69](#day-69) **03rd Jan 2022**|Topic: Security in Django(CSRF) Data Structures Practice at Leetcode.|[Day 70](#day-70) **04th Jan 2022**|Topics: Security in Django (still on Cross-Site Request Forgery protection)More DS Practice Problems on Linked List at Leetcode.(Python).
+|[Day 71](#day-71) **05th Jan 2022**|Topics: Security in Django (concluded on Cross-Site Request Forgery protection)
+Practiced DS Problems on Linked List at Leetcode.(Python)|[Day 72](#day-72) **06th Jan 2022**|Topics: Security in Django (SQL injection protection)Two-pointer technique problems on Leetcode.
+|[Day 73](#day-73) **07th Jan 2022**|Topics: Security in Django (Clickjacking protection).

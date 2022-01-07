@@ -165,3 +165,13 @@ CACHES = {
         'LOCATION': '127.0.0.1:11211',
     } 
 }
+
+#! CSRF SECURE SETTING
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000']
+CSRF_COOKIE_NAME = "#100daysOfCodeCsrfToken"
+
+#! Designating the CSRF cookie as HTTPONLY doesn't offer any preactical protection against cross-domain attacks
+#! CSRF offer protection again across Cross-domain and if an attacker can read the cookie vs JS, means they already on the domain as far as browser knows
+#! Although the setting offers little practical benefit, it’s sometimes required by security auditors.
+CSRF_COOKIE_HTTPONLY = True 
+CSRF_COOKIE_SECURE = True
