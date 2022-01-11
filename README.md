@@ -42,4 +42,5 @@
 |[Day 69](#day-69) **03rd Jan 2022**|Topic: Security in Django(CSRF) Data Structures Practice at Leetcode.|[Day 70](#day-70) **04th Jan 2022**|Topics: Security in Django (still on Cross-Site Request Forgery protection)More DS Practice Problems on Linked List at Leetcode.(Python).
 |[Day 71](#day-71) **05th Jan 2022**|Topics: Security in Django (concluded on Cross-Site Request Forgery protection)
 Practiced DS Problems on Linked List at Leetcode.(Python)|[Day 72](#day-72) **06th Jan 2022**|Topics: Security in Django (SQL injection protection)Two-pointer technique problems on Leetcode.
-|[Day 73](#day-73) **07th Jan 2022**|Topics: Security in Django (Clickjacking protection).
+|[Day 73](#day-73) **07th Jan 2022**|Topics: Security in Django (Clickjacking protection).|[Day 74](#day-74) **08th Jan 2022**|Topics: Still solving DS Classic Problems on Leetcode(Python).
+|[Day 75](#day-75) **10th Jan 2022**|Topics: Security in Django(SSL/HTTPS). DS Classic Problems on Leetcode(Py& JS).|[Day 76](#day-76) **11th Jan 2022**|Topics: Security in Django(Host header validation)

@@ -22,6 +22,16 @@ from codeApp.forms import BookModelForm, ContactForm
 class LandingPageView(generic.TemplateView):
     template_name = 'landing_page.html'
 
+    def get(self, request, *args, **kwargs):
+        resp = super().get(request, *args, **kwargs)
+        if not request.session.get('secrets') and not request.session.get('visits'):
+            request.session['secrets'] = '|4?:jjrK&Q\'/0lY5FlQn=1St_M,tu87#wn}7Yf4YYe(Hh"K+gy'
+            request.session["visits"] = 1
+        session = request.session.get('visit')
+        print(request.META)
+        return resp
+
+
 # Using Mixins
 class BookListView(LoginRequiredMixin, TemplateResponseMixin, View):
     template_name = 'codeApp/list_books.html'
