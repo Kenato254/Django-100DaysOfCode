@@ -2,8 +2,10 @@ from django.utils.timezone import now
 from django.db import models
 from django.db.models.signals import post_save
 from django.contrib.auth.models import AbstractUser
+# from django.contrib.auth import get_user, get_user_model
 from django.urls import reverse
 
+# User = get_user_model()
 class User(AbstractUser):
     pass
 

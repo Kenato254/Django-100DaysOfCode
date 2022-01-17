@@ -40,7 +40,9 @@
 |[Day 65](#day-65) **28th Dec 2021**|Topics: Security in Django (Cross Site Scripting (XSS) Protection).Data Structures practice at GeeksforGeeks.|[Day 66](#day-66) **29th Dec 2021**|Topics: Security in Django (Concluded on Cross-site scripting (XSS) protection). Data Structures Circular Linked List(Python).
 |[Day 67](#day-67) **30th Dec 2021**|Topics: Security in Django (Cross Site Request Forgery Protection). Extra: Data Structures practice. |[Day 68](#day-68) **02nd Jan 2022**|Topic: Data Structures Practice on GeeksforGeeks.
 |[Day 69](#day-69) **03rd Jan 2022**|Topic: Security in Django(CSRF) Data Structures Practice at Leetcode.|[Day 70](#day-70) **04th Jan 2022**|Topics: Security in Django (still on Cross-Site Request Forgery protection)More DS Practice Problems on Linked List at Leetcode.(Python).
-|[Day 71](#day-71) **05th Jan 2022**|Topics: Security in Django (concluded on Cross-Site Request Forgery protection)
-Practiced DS Problems on Linked List at Leetcode.(Python)|[Day 72](#day-72) **06th Jan 2022**|Topics: Security in Django (SQL injection protection)Two-pointer technique problems on Leetcode.
+|[Day 71](#day-71) **05th Jan 2022**|Topics: Security in Django (concluded on Cross-Site Request Forgery protection), Practiced DS Problems on Linked List at Leetcode.(Python).|[Day 72](#day-72) **06th Jan 2022**|Topics: Security in Django (SQL injection protection)Two-pointer technique problems on Leetcode.
 |[Day 73](#day-73) **07th Jan 2022**|Topics: Security in Django (Clickjacking protection).|[Day 74](#day-74) **08th Jan 2022**|Topics: Still solving DS Classic Problems on Leetcode(Python).
-|[Day 75](#day-75) **10th Jan 2022**|Topics: Security in Django(SSL/HTTPS). DS Classic Problems on Leetcode(Py& JS).|[Day 76](#day-76) **11th Jan 2022**|Topics: Security in Django(Host header validation)
+|[Day 75](#day-75) **10th Jan 2022**|Topics: Security in Django(SSL/HTTPS). DS Classic Problems on Leetcode(Py& JS).|[Day 76](#day-76) **11th Jan 2022**|Topics: Security in Django(Host header validation).
+|[Day 77](#day-77) **12th Jan 2022**|Topics: Using the Django authentication system. Doubly Linked List on Leetcode(Python).|[Day 78](#day-78) **13th Jan 2022**|Topics: (Still on)Using the Django authentication system. Doubly Linked List on Leetcode(Python).
+[Day 79](#day-79) **14th Jan 2022**|Topics: Django authentication system(Permissions and Authorization). [Day 80](#day-80) **15th Jan 2022**|Topics: Data Structures study on Leetcode. 
+|[Day 81](#day-81) **16th Jan 2022**|Topics: Django Authentication in web requests.
