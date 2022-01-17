@@ -44,5 +44,5 @@
 |[Day 73](#day-73) **07th Jan 2022**|Topics: Security in Django (Clickjacking protection).|[Day 74](#day-74) **08th Jan 2022**|Topics: Still solving DS Classic Problems on Leetcode(Python).
 |[Day 75](#day-75) **10th Jan 2022**|Topics: Security in Django(SSL/HTTPS). DS Classic Problems on Leetcode(Py& JS).|[Day 76](#day-76) **11th Jan 2022**|Topics: Security in Django(Host header validation).
 |[Day 77](#day-77) **12th Jan 2022**|Topics: Using the Django authentication system. Doubly Linked List on Leetcode(Python).|[Day 78](#day-78) **13th Jan 2022**|Topics: (Still on)Using the Django authentication system. Doubly Linked List on Leetcode(Python).
-[Day 79](#day-79) **14th Jan 2022**|Topics: Django authentication system(Permissions and Authorization). [Day 80](#day-80) **15th Jan 2022**|Topics: Data Structures study on Leetcode. 
+[Day 79](#day-79) **14th Jan 2022**|Topics: Django authentication system(Permissions and Authorization). |[Day 80](#day-80) **15th Jan 2022**|Topics: Data Structures study on Leetcode. 
 |[Day 81](#day-81) **16th Jan 2022**|Topics: Django Authentication in web requests.
