@@ -45,4 +45,7 @@
 |[Day 75](#day-75) **10th Jan 2022**|Topics: Security in Django(SSL/HTTPS). DS Classic Problems on Leetcode(Py& JS).|[Day 76](#day-76) **11th Jan 2022**|Topics: Security in Django(Host header validation).
 |[Day 77](#day-77) **12th Jan 2022**|Topics: Using the Django authentication system. Doubly Linked List on Leetcode(Python).|[Day 78](#day-78) **13th Jan 2022**|Topics: (Still on)Using the Django authentication system. Doubly Linked List on Leetcode(Python).
 [Day 79](#day-79) **14th Jan 2022**|Topics: Django authentication system(Permissions and Authorization). |[Day 80](#day-80) **15th Jan 2022**|Topics: Data Structures study on Leetcode. 
-|[Day 81](#day-81) **16th Jan 2022**|Topics: Django Authentication in web requests.
+|[Day 81](#day-81) **16th Jan 2022**|Topics: Django Authentication in web requests. |[Day 82](#day-82) **17th Jan 2022**|Topics: Django Authentication System. Coding Problems on Leetcode.
+|[Day 83](#day-83) **18th Jan 2022**|Topics: Django Authentication System (Working on authentication system).|[Day 84](#day-84) **19th Jan 2022**|Topics: Django Authentication System (Working on authentication system). Coding Problems on Leetcode(Python).
+|[Day 85](#day-85) **20th Jan 2022**|Topics: Django Authentication System (Groups and more Permissions).Coding Problems on Leetcode(Python).|[Day 86](#day-86) **21st Jan 2022**|Topics: Django Authentication System (Limiting access to logged-in users).
+|[Day 87](#day-87) **22nd Jan 2022**|Topics: Django Authentication System (Limiting access to logged-in users).DSA Problems on Leetcode(Python). Revising Algorithms(Started with Sorting  Algorithms). |[Day 88](#day-88) **22nd Jan 2022**|Topics:
