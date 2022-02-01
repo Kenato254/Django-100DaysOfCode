@@ -51,4 +51,6 @@
 |[Day 87](#day-87) **22nd Jan 2022**|Topics: Django Authentication System (Limiting access to logged-in users).DSA Problems on Leetcode(Python). Revising Algorithms(Started with Sorting  Algorithms). |[Day 88](#day-88) **23rd Jan 2022**|Topics: Django Authentication System (Limiting access to logged-in users) DSA Problems on Leetcode(Python) Revising Algorithms(Started with Sorting  Algorithms).
 |[Day 89](#day-89) **24th Jan 2022**|Topics: Django Authentication System (Redirecting unauthorized requests in CBVs). DS and Sorting Algorithms revision(Python). |[Day 90](#day-90) **25th Jan 2022**|Topics: Django Authentication System (Authentication Views). Sorting Algorithms revision(Python).
 |[Day 91](#day-91) **26th Jan 2022**|Topics: Django still on (Authentication Views). Extra: Sorting Algorithms revision still on. |[Day 92](#day-92) **27th Jan 2022**|Topics: Django still on (Authentication Views).
-|[Day 93](#day-93) **28th Jan 2022**|Topics: Digging deeper Django Authentication System (Authentication Views).
+|[Day 93](#day-93) **28th Jan 2022**|Topics: Digging deeper Django Authentication System (Authentication Views). |[Day 94](#day-94) **29th Jan 2022**|Topics: Django Authentication System (Built-in forms). Sorting Algorithms revision Merge Sort(Python).
+|[Day 95](#day-95) **31st Jan 2022**|Topics: Django Authentication System (Authentication data in templates). |[Day 96](#day-96) **01st Feb 2022**|Topics: Django Authentication System (Customizing authentication). Django Messaging Framework.
+|[Day 97](#day-97) **02nd Feb 2022**|Topics:
